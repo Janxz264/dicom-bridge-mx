@@ -95,6 +95,8 @@ def get_worklist_from_db(requestor_ae):
             
             cursor = conn.cursor()
             
+            """Remember, this is where you use your custom SQL statement, so adapt this SQL SELECT as you need"""
+
             query = """
             SELECT DISTINCT 
                 PATIENT_NAME, PERSONAL_ID, BENEFACTOR_ID,
