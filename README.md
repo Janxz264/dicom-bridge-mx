@@ -74,6 +74,12 @@ This project is licensed under:
 
 You’re free to use, adapt, and share this code non-commercially with attribution. Commercial use requires explicit permission from the author.
 
+## Library and dependency installation
+
+Make sure you execute this command to fetch the essential libraries before executing the script:
+
+```pip install -r requirements.txt```
+
 ## 🛠️ Running Locally
 
 ```python middleware.py```
