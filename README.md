@@ -53,6 +53,7 @@ Contains Oracle database connection details:
 
 Specifies the forwarding destination for DICOM C-STORE requests:
 
+```json
 {
   "orthanc": {
     "host": "XXX.XXX.XXX.XXX",
