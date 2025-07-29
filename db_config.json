@@ -1,0 +1,9 @@
+{
+  "oracle": {
+    "host": "XXXX",
+    "port": "XXXX",
+    "service_name": "XXXX",
+    "username": "XXXX",
+    "password": "XXXX"
+  }
+}

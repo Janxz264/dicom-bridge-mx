@@ -1,0 +1,19 @@
+# Core DICOM functionality
+    pynetdicom==2.1.1
+    pydicom==2.4.4
+     
+    # Database
+    oracledb==1.4.0
+    sqlparse==0.5.3
+     
+    # Web framework (if needed)
+    Django==5.1.7
+    djangorestframework==3.15.2
+    asgiref==3.8.1
+    waitress==3.0.2
+     
+    # Imaging
+    pillow==11.1.0
+     
+    # Timezone data
+    tzdata==2025.2
