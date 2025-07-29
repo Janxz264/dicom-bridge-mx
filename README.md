@@ -82,13 +82,13 @@ Logs stream via stdout with configurable verbosity.
 
 ## ⚙️ Windows environment setup
 
-Operating System: Windows 10 or later (64-bit recommended)
+- Operating System: Windows 10 or later (64-bit recommended)
 
-Python Version: Python 3.11.x (Earlier versions like 3.10 may work, but 3.11 is tested and recommended)
+- Python Version: Python 3.11.x (Earlier versions like 3.10 may work, but 3.11 is tested and recommended)
 
-Package Manager: pip (Ensure it's up-to-date with python -m pip install --upgrade pip)
+- Package Manager: pip (Ensure it's up-to-date with python -m pip install --upgrade pip)
 
-Optional: Use a virtual environment for clean isolation:
+- Optional: Use a virtual environment for clean isolation:
 
 ```python -m venv ris_env```
 ```ris_env\Scripts\activate  # Windows```
