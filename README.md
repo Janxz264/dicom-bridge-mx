@@ -26,7 +26,7 @@ See `requirements.txt` for full dependencies. Key modules:
 
 This system runs in production on a Docker container but can be launched via CLI for development purposes.
 
-##  Python version used was 3.13.5
+##  Python version used was 3.11.9
 
 ---
 
@@ -78,6 +78,19 @@ You’re free to use, adapt, and share this code non-commercially with attributi
 ```python middleware.py```
 
 Logs stream via stdout with configurable verbosity.
+
+## ⚙️ Windows environment setup
+
+Operating System: Windows 10 or later (64-bit recommended)
+
+Python Version: Python 3.11.x (Earlier versions like 3.10 may work, but 3.11 is tested and recommended)
+
+Package Manager: pip (Ensure it's up-to-date with python -m pip install --upgrade pip)
+
+Optional: Use a virtual environment for clean isolation:
+
+```python -m venv ris_env```
+```ris_env\Scripts\activate  # Windows```
 
 ## 🤝 PACS Compatibility
 
