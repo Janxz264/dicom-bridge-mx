@@ -2,8 +2,6 @@
 
 Python middleware for RIS/HIS interoperability, designed to handle C-ECHO verification, DICOM Worklist SCU, and C-STORE forwarding—built with legacy compatibility and modern extensibility in mind.
 
-> Developed independently by Jan for the Instituto de Seguridad Social del Estado de Tabasco (ISSET), México. Project duration: ~3 months (Jan–Apr 2025)
-
 ---
 
 ## 🚀 Features
@@ -28,7 +26,7 @@ See `requirements.txt` for full dependencies. Key modules:
 
 This system runs in production on a Docker container but can be launched via CLI for development purposes.
 
-##  Use Python 3.13.5
+##  Python version used was 3.13.5
 
 ---
 
