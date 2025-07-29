@@ -61,7 +61,7 @@ Specifies the forwarding destination for DICOM C-STORE requests:
     "ae_title": "XXXX"
   }
 }
-
+```
 🎯 Why this exists: Legacy modalities like the AXIOM MULTIX FUSION DIGITAL WIRELESS FLC, which run on Windows 98, prevent reusing IP addresses across different services (RIS/PACS). This middleware receives studies locally and forwards them to PACS using the config above—effectively decoupling modality UI limitations from the true PACS backend.
 
 Users with newer systems (Windows-based or vendor-embedded OS) may not need this workaround, but it's crucial for maintaining compatibility with functioning legacy hardware.
